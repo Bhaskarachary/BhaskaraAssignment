@@ -1,0 +1,66 @@
+INFO: Scanner configuration file: /Users/bhaskara/Downloads/sonar-scanner-3.1.0.1141-macosx/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarQube Scanner 3.1.0.1141
+INFO: Java 1.8.0_121 Oracle Corporation (64-bit)
+INFO: Mac OS X 10.12.6 x86_64
+INFO: User cache: /Users/bhaskara/.sonar/cache
+INFO: SonarQube server 7.1.0
+INFO: Default locale: "en_US", source code encoding: "US-ASCII" (analysis is platform dependent)
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=66ms
+INFO: Server id: AWLaYOdP6-0CJ1A8nRlc
+INFO: User cache: /Users/bhaskara/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=43ms
+INFO: Load/download plugins
+INFO: Load/download plugins (done) | time=13ms
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=55ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=23ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=428ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=29ms
+INFO: Project key: ba6217ff75b613cfe145adf11005bade316d05ac
+INFO: Project base dir: /Users/bhaskara/ttttmpppp/latest/bhaskarAssignment
+INFO: -------------  Scan ba6217ff75b613cfe145adf11005bade316d05ac
+INFO: Load server rules
+INFO: Load server rules (done) | time=126ms
+INFO: Base dir: /Users/bhaskara/ttttmpppp/latest/bhaskarAssignment
+INFO: Working dir: /Users/bhaskara/ttttmpppp/latest/bhaskarAssignment/.scannerwork
+INFO: Source paths: .
+INFO: Source encoding: US-ASCII, default locale: en_US
+INFO: Index files
+INFO: 7813 files indexed
+INFO: Quality profile for js: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: 4 source files to be analyzed
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=250ms
+INFO: 4/4 source files have been analyzed
+INFO: Sensor XML Sensor [xml]
+INFO: Sensor XML Sensor [xml] (done) | time=860ms
+INFO: Sensor SonarJS [javascript]
+INFO: 19 source files to be analyzed
+INFO: Sensor SonarJS [javascript] (done) | time=1066ms
+INFO: 19/19 source files have been analyzed
+INFO: Sensor SonarJS Coverage [javascript]
+INFO: Sensor SonarJS Coverage [javascript] (done) | time=3ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=278ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=0ms
+INFO: SCM provider for this project is: git
+INFO: 23 files to be analyzed
+INFO: 23/23 files analyzed
+INFO: Calculating CPD for 9 files
+INFO: CPD calculation finished
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 8.058s
+INFO: Final Memory: 19M/1020M
+INFO: ------------------------------------------------------------------------

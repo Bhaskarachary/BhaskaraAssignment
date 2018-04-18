@@ -1,0 +1,146 @@
+:root {
+	--base-font-size: 16px;
+	--pxl-4: calc(4 / var(--base-font-size));
+
+	/**
+	* @name Blue
+	* @description Light and dark shades of color-blue
+	*/
+	--blue-base: #0ab7d7;
+	--blue-dark: #09afce;
+	--blue-darker: #09a8c6;
+	--blue-light: #6cd3e7;
+	--blue-lighter: #6eebff;
+
+	/**
+	* @name Mint
+	* @description Light and dark shades of color-mint
+	*/
+	--mint-base: #0ac391;
+	--mint-dark: #09bb8b;
+	--mint-darker: #09b385;
+	--mint-light: #6cdbbd;
+	--mint-lighter: #7dffdd;
+
+	/**
+	* @name Orange
+	* @description Light and dark shades of color-orange
+	*/
+	--orange-base: #e86935;
+	--orange-dark: #e66531;
+	--orange-darker: #dd612f;
+	--orange-light: #f1a585;
+	--orange-lighter: #ffb090;
+
+	/**
+	* @name Green
+	* @description Light and dark shades of color-green
+	*/
+	--green-base: #32c655;
+	--green-dark: #30be51;
+	--green-darker: #2eb64e;
+	--green-light: #84dc99;
+	--green-lighter: #99ffb1;
+
+	/**
+	* @name Red
+	* @description Light and dark shades of $color-red
+	*/
+	--red-base: #e74a3e;
+	--red-dark: #e2493d;
+	--red-darker: #d9463a;
+	--red-light: #f0928b;
+	--red-lighter: #ff9c94;
+
+	/**
+	* @name Yellow
+	* @description Light and dark shades of $color-yellow
+	*/
+	--yellow-base: #f0a309;
+	--yellow-dark: #e69c08;
+	--yellow-darker: #dd9608;
+	--yellow-light: #f6c76b;
+	--yellow-lighter: #ffce6f;
+
+	/**
+	* @name Pink
+	* @description Light and dark shades of $color-pink
+	*/
+	--pink-base: #e03a63;
+	--pink-dark: #dc3a62;
+	--pink-darker: #d3385e;
+	--pink-light: #ec88a1;
+	--pink-lighter: #ff93ae;
+
+	/**
+	* @name Purple
+	* @description Light and dark shades of $color-purple
+	*/
+	--purple-base: #bc4bc4;
+	--purple-dark: #b73fc0;
+	--purple-darker: #b03cb8;
+	--purple-light: #d693db;
+	--purple-lighter: #faacff;
+
+	/**
+	* @name Violet
+	* @description Light and dark shades of $color-violet
+	*/
+	--violet-base: #8f65e0;
+	--violet-dark: #8961d7;
+	--violet-darker: #835dce;
+	--violet-light: #bba2ec;
+	--violet-lighter: #cdb0ff;
+
+	/**
+	* @name Cyan
+	* @description Light and dark shades of $color-cyan
+	*/
+	--cyan-base: #08aebe;
+	--cyan-dark: #07a7b6;
+	--cyan-darker: #07a0af;
+	--cyan-light: #6aced8;
+	--cyan-lighter: #78f5ff;
+	/**
+	* @name Cyan
+	* @description Light and dark shades of $color-cyan
+	*/
+	--gy-base: #77aa00;
+	--gy-dark: #5f8500;
+	--gy-darker: #598100;
+	--gy-light: #8ec200;
+	--gy-lighter: #9dde00;
+
+	/**
+	* @name Grays
+	* @description Grayscale colors provide quick access to commonly used shades of black
+	*/
+	--black: #1a1a1a;
+	--gray-dark-4: #292929;
+	--gray-dark-3: #343537;
+	--gray-dark-2: #4f5051;
+	--gray-dark-1: #6a6b6c;
+	--gray-base: #939393;
+	--gray-light-1: #aeaeaf;
+	--gray-light-2: #d7d7d8;
+	--gray-light-3: #ebebec;
+	--gray-light-4: #f5f5f6;
+	--white: #fff;
+
+	/**
+	* Base color aliases
+	*/
+	--blue: var(--blue-base);
+	--mint: var(--mint-base);
+	--orange: var(--orange-base);
+	--green: var(--green-base);
+	--red: var(--red-base);
+	--yellow: var(--yellow-base);
+	--pink: var(--pink-base);
+	--purple: var(--purple-base);
+	--violet: var(--violet-base);
+	--cyan: var(--cyan-base);
+
+	/* Fonts */
+	--bold: 'sans-serif Bold';
+}

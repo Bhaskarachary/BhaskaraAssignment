@@ -1,0 +1,15 @@
+@import '../../style/variables.css';
+
+.navs{
+	border: 1px solid var(--green-base);
+	margin: 10px;
+	padding: 5px 10px;
+	float: left;
+	font-size: 20px;
+	cursor: pointer;
+}
+.active{
+	border: 1px solid var(--green-base);
+	color: #ffffff;
+	background: var(--green-light);
+}

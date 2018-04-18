@@ -1,0 +1,24 @@
+@import "./variables.css";
+
+:global {
+	body {
+		color: var(--gray-dark-1);
+	}
+
+	.body-small {
+		font-size: 0.75rem;
+	}
+
+	.body-smallest {
+		font-size: 0.625rem;
+		padding: 0.188rem 0;
+	}
+
+	.font-16px {
+		font-size: 1rem;
+	}
+
+	.font-20px {
+		font-size: 1.25rem;
+	}
+}

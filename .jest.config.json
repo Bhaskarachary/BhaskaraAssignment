@@ -1,0 +1,23 @@
+{
+	"rootDir": "src/",
+	"bail": false,
+	"verbose":true,
+	"collectCoverage": true,
+	"coverageDirectory": "../../build",
+	"transform": {
+		".*.jsx": "babel-jest",
+		".*.js": "babel-jest"
+	},
+	"moduleNameMapper": {
+		"\\.(css)$": "identity-obj-proxy",
+		"\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/mock.js"
+	},
+	"moduleFileExtensions": [
+		"js",
+		"jsx"
+	],
+	"unmockedModulePathPatterns": [
+		"./node_modules/react"
+	],
+	"transformIgnorePatterns": []
+}

@@ -1,0 +1,418 @@
+@import "./variables.css";
+
+:global {
+	.flex-col {
+		flex-direction: column;
+	}
+
+	.flex {
+		display: flex;
+	}
+
+	.i-flex {
+		display: inline-flex;
+	}
+
+	.block {
+		display: block;
+	}
+
+	.i-block {
+		display: inline-block;
+	}
+
+	.align-item-center {
+		align-items: center;
+	}
+
+	.align-item-end {
+		align-items: flex-end;
+	}
+
+	.justify-content-sa {
+		justify-content: space-around;
+	}
+
+	.justify-content-bw {
+		justify-content: space-between;
+	}
+
+	.justify-content-ce {
+		justify-content: center;
+	}
+
+	.justify-content-end {
+		justify-content: flex-end;
+	}
+
+	.flex1 {
+		flex: 1 1 auto;
+	}
+
+	.flex0 {
+		flex: 0 0 auto;
+	}
+
+	.flex-shrink0 {
+		flex-shrink: 0;
+	}
+
+	.flex-grow0 {
+		flex-grow: 0;
+	}
+
+	.flex-basis0 {
+		flex-basis: 0;
+	}
+
+	.flex-wrap-wrap {
+		flex-wrap: wrap;
+	}
+
+	.absolute {
+		position: absolute;
+	}
+
+	.fixed {
+		position: fixed;
+	}
+
+	.relative {
+		position: relative;
+	}
+
+	.width100 {
+		width: 100%;
+	}
+
+	.width0 {
+		width: 0;
+	}
+
+	.width14r {
+		width: 14rem;
+	}
+
+	.width19r {
+		width: 19rem;
+	}
+
+	.width-50 {
+		width: 50%;
+	}
+
+	.width-75 {
+		width: 75%;
+	}
+
+	.width-25 {
+		width: 25%;
+	}
+
+	.height100 {
+		height: 100%;
+	}
+
+	.zindexneg1 {
+		z-index: -1;
+	}
+
+	.zindex1 {
+		z-index: 1;
+	}
+
+	.zindex2 {
+		z-index: 2;
+	}
+
+	.zindex3 {
+		z-index: 3;
+	}
+
+	.zindex4 {
+		z-index: 4;
+	}
+
+	.zindex5 {
+		z-index: 5;
+	}
+
+	.zindex6 {
+		z-index: 6;
+	}
+
+	.overflow-hidden {
+		overflow: hidden;
+	}
+
+	.overflow-y-auto {
+		overflow-y: auto;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.pad-0 {
+		padding: 0;
+	}
+
+	.pad-05r {
+		padding: 0.5rem;
+	}
+
+	.pad-1r {
+		padding: 1rem;
+	}
+
+	.pad-top-1r {
+		padding-top: 1rem;
+	}
+
+	.pad-top-05r {
+		padding-top: 0.5rem;
+	}
+
+	.pad-bottom-05r {
+		padding-bottom: 0.5rem;
+	}
+
+	/* padding top and bottom */
+	.pad-tb-05r {
+		padding: 0.5rem 0;
+	}
+
+	.pad-right-05r {
+		padding-right: 0.5rem;
+	}
+
+	.pad-right-1r {
+		padding-right: 1rem;
+	}
+
+	.pad-bottom-1r {
+		padding-bottom: 1rem;
+	}
+
+	.pad-left-05r {
+		padding-left: 0.5rem;
+	}
+
+	.pad-left-1r {
+		padding-left: 1rem;
+	}
+
+	.mar-left-05r {
+		margin-left: 0.5rem;
+	}
+
+	.mar-right-05r {
+		margin-right: 0.5rem;
+	}
+
+	.mar-bottom-05r {
+		margin-bottom: 0.5rem;
+	}
+
+	.mar-top-05r {
+		margin-top: 0.5rem;
+	}
+
+	.mar-left-1r {
+		margin-left: 1rem;
+	}
+
+	.mar-right-1r {
+		margin-right: 1rem;
+	}
+
+	.mar-bottom-1r {
+		margin-bottom: 1rem;
+	}
+
+	.mar-0 {
+		margin: 0;
+	}
+
+	.mar-05r {
+		margin: 0.5rem;
+	}
+
+	.mar-1r {
+		margin: 1rem;
+	}
+
+	.text-center {
+		text-align: center;
+	}
+
+	.text-left {
+		text-align: left;
+	}
+
+	.text-right {
+		text-align: right;
+	}
+
+	.va-top {
+		vertical-align: top;
+	}
+
+	.user-select {
+		user-select: none;
+	}
+
+	.ft-sz-14 {
+		font-size: 0.875rem;
+	}
+
+	.ft-sz-16 {
+		font-size: 1rem;
+	}
+
+	.ft-sz-12 {
+		font-size: 0.75rem;
+	}
+
+	.ft-sz-10 {
+		font-size: 0.625rem;
+	}
+
+	.ft-sz-20 {
+		font-size: 1.25rem;
+	}
+
+	.ft-sz-24 {
+		font-size: 1.5rem;
+	}
+
+	.lh1 {
+		line-height: 1;
+	}
+
+	.lh1_5 {
+		line-height: 1.5;
+	}
+
+	.lh2 {
+		line-height: 2;
+	}
+
+	button,
+	input,
+	select,
+	textarea {
+		font-family: inherit;
+	}
+
+	.bdr-rad4 {
+		border-radius: 0.25rem;
+	}
+
+	.bdr-rad100 {
+		border-radius: 100px;
+	}
+
+	.bdr-rad50 {
+		border-radius: 50%;
+	}
+
+	.bdr-none {
+		border: none;
+	}
+
+	.bdr-transparent {
+		border: 0.0625rem solid transparent;
+	}
+
+	.bdr-gray {
+		border: 0.0625rem solid var(--gray-base);
+	}
+
+	.outline-none {
+		outline: none;
+	}
+
+	.trans-trans03 {
+		transition: transform 0.3s ease-in;
+	}
+
+	.visible {
+		visibility: visible;
+	}
+
+	.hidden {
+		visibility: hidden;
+	}
+
+	.display-none {
+		display: none;
+	}
+
+	.opacity0 {
+		opacity: 0;
+	}
+
+	.zi-neg-9999 {
+		z-index: -9999;
+	}
+
+	.top0 {
+		top: 0;
+	}
+
+	.bottom0 {
+		bottom: 0;
+	}
+
+	.left0 {
+		left: 0;
+	}
+
+	.right0 {
+		right: 0;
+	}
+
+	.top50 {
+		top: 50%;
+	}
+
+	.left50 {
+		left: 50%;
+	}
+
+	/* modal transition effects */
+	.slideup-appear {
+		animation: slideup 3s;
+		animation-delay: 5s;
+	}
+
+	.appear-appear {
+		opacity: 0.01;
+	}
+
+	.appear-appear.appear-appear-active {
+		opacity: 1;
+		transition: opacity 0.3s ease-in;
+	}
+
+	.translate110 {
+		transform: translateX(110%);
+	}
+
+	.bg-transparent {
+		background: transparent;
+	}
+
+	.ft-wt-bold {
+		font-weight: bolder;
+	}
+
+	.cur-default {
+		cursor: default;
+	}
+
+	.cur-pointer {
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,25 @@
+@import '../../style/variables.css';
+
+.form, .form *{
+	font-size: 20px;
+	font-weight: 600;
+}
+.label{
+	display: block;
+	margin: 10px 0 0 10px;
+}
+
+.input{
+	width: 100%;
+	padding: 20px 10px;
+	border: none;
+	box-shadow: none;
+	margin: 10px;
+}
+
+.input.full{
+	width: 526px;
+}
+.input.half{
+	width: 243px;
+}

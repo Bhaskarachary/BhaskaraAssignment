@@ -1,0 +1,11 @@
+{
+	"presets": ["react","stage-2"],
+	"env": {
+		"production": {
+			"presets": ["es2015", "es2015-ie"]
+		},
+		"test": {
+			"presets": ["es2015", "jest"]
+		}
+	}
+}
